@@ -1,0 +1,286 @@
+/* Navbar CSS */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.navbar {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 48px;
+  margin-left: 24px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.navbar-option {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.language {
+  font-size: 18px;
+}
+
+.separator {
+  border: 1px solid #E5E5E5;
+  width: 100%;
+  margin: 10px;
+}
+
+/* Banner CSS */
+
+.banner-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 24px;
+  padding: 10px;
+}
+
+.banner-title {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: Regular;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  width: 666;
+  height: 72;
+  angle: 0 deg;
+  opacity: 1;
+  top: 292px;
+  left: 388px;
+
+}
+
+.banner-para {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 30px;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+.line {
+  border: 1px solid #E5E5E5;
+  width: 100%;
+  margin: 10px;
+}
+
+.horizontal-line {
+  border: 1px solid #E5E5E5;
+  width: 100%;
+  margin: 10px;
+}
+
+
+.products-cont{
+  display: flex;
+  min-height: 100vh;
+  gap: 20px;
+  padding: 10px;
+}
+.filter-section{
+  width:20%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #E5E5E5;
+  margin-left: 20px;
+  
+}
+.checkbox-cont{
+  display: flex;
+  flex-direction: row;
+  gap:15px;
+  margin-bottom: 20px;
+}
+.checkbox-title{
+  font-size:16px;
+}
+.products-section{
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+  
+  
+}
+.products-section h2{
+  margin-bottom: 20px;
+}
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  gap:25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card{
+  background-color: #fff;
+  width:280px;
+  height:500px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:20px;
+}
+
+
+.product-card img{
+  height: 150px;
+  width: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.product-card h2{
+  font-size:18px;
+  font-weight: 500;
+}
+.product-desc{
+  font-size:12px;
+}
+.price{
+  font-size:20px;
+  color:tomato;
+  padding-top: 10px;
+}
+.products-title{
+  font-size:40px;
+  font-weight: 500;
+
+}
+.footer{
+  color:#d9d9d9;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 8vw;
+  padding-top:80px;
+  margin-top:10px;
+}
+.footer-content{
+  margin: 10px;
+   width:100%;
+   display:grid;
+   grid-template-columns:2fr 1fr 1fr;
+   gap:80px;
+}
+
+.footer-content-left h1{
+  font-size: 24px;
+}
+.footer-content-right{
+  line-height:24px;
+  
+}
+.currency-cont{
+  display: flex;
+  flex-direction: row;
+  gap:20px
+}
+.transaction{
+  font-size: 12px;
+}
+.footer-content-right h2{
+  padding: 8px;
+}
+.footer-input-cont{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+.input-box{
+   width:350px;
+  height:36px;
+  border-radius:3px;
+  margin-top: 10px;
+}
+.input-box::placeholder{
+  color: #E5E5E5;
+  padding-left: 12px;
+  font-size: 14px;
+}
+.subscribe-btn{
+  width:120px;
+  height:36px;
+  border-radius:3px;
+  margin-top: 10px;
+  background: transparent;
+  color: #fff;
+  border-color: #d9d9d9;
+}
+.footer-bottom-cont{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.footer-text{
+  font-size:20px;
+}
+.text{
+  font-size:20px;
+}
+.footer-list{
+  list-style-type: none;
+  line-height:24px;
+}
+.footer-icons{
+  gap:14px;
+  display: flex;
+  padding: 8px;
+}
+.icons-box{
+  gap:14px;
+  display: flex;
+  padding: 8px;
+}
+.icons-box img{
+  border-radius:4px;
+}
+.copyright{
+  text-align: center;
+  font-size:20px;
+}
+.filter-option{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.filter{
+  font-size:14px;
+}
+.all{
+   padding-left:10px;
+}
+hr{
+  margin: 10px;
+}
