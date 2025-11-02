@@ -17,8 +17,8 @@
          Vercel
 
 ## Links: 
-       Github Link -> 
-       Project Link -> 
+       Github Link -> https://github.com/kavyanimmaturi/Appscrip-task-kavya.git
+       Project Link -> https://appscrip-task-kavya.vercel.app/
 
 # Mock API Link for products fetching: 
             https://fakestoreapi.com/
